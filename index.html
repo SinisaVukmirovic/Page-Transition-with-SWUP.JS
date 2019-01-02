@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page Transition with SWUP</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <a href="#">Brand Logo</a>
+        </nav>
+
+        <main id="swup" class="transition-fade">
+            <h1>Home Page</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit hic debitis ipsum similique blanditiis natus perspiciatis praesentium? Provident labore ipsum, tempora architecto, ea sed necessitatibus hic commodi iusto officiis voluptatibus!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, eum.</p>
+            <br>
+            <a href="/subpage.html" class="transition-left">Go to subpage</a>
+        </main>
+
+        <!-- <div class="transition-wipe overlay">Whooop Whooop!</div> -->
+        <div class="transition-wipe overlay"><i class="fas fa-paw"></i></div>
+
+    </div>
+
+    <footer>Simple Page Transition with SWUP.JS</footer>
+
+    <script src="./dist/swup.js"><i class="fas fa-paw"></i></script>
+
+    <script>
+
+        const swup = new Swup();
+
+    </script>
+</body>
+</html>
